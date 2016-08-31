@@ -18,6 +18,7 @@ public class Login extends AppCompatActivity {
 
         //Instantiating view
         setContentView(R.layout.mainmap_activity);
+        //HELLO WORLD
     }
 
     protected void onStart(){
