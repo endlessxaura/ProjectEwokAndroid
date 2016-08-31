@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/asap/ProjectEwokAndroid/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/Users/asap/ProjectEwokAndroid/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.4.0_d0f589777213ba741941e5921d28369798c72831.jar" />
+    </item>
+    <item
+        jar="/Users/asap/ProjectEwokAndroid/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/Users/asap/ProjectEwokAndroid/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.4.0_75de6ce2cfa5418beef5de7a977e0d205dafba49.jar" />
+    </item>
+    <item
+        jar="/Users/asap/ProjectEwokAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/asap/ProjectEwokAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_2fac3c51668d82231c18171ef8622cbe1d44b5f0.jar" />
+    </item>
+    <item
+        jar="/Users/asap/ProjectEwokAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/asap/ProjectEwokAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_931098927525d05d49ba92be85d8486e398c2d5e.jar" />
+    </item>
+    <item
+        jar="/Users/asap/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/asap/ProjectEwokAndroid/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_455a6e1f34a9d0d640333630e0e9ef4553356a20.jar" />
+    </item>
+    <item
+        jar="/Users/asap/ProjectEwokAndroid/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/asap/ProjectEwokAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_5c38512d1bf3c2a2947ed80e24979cf75d8734ed.jar" />
+    </item>
+    <item
+        jar="/Users/asap/ProjectEwokAndroid/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/asap/ProjectEwokAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_8684eeffc84e29165fe25a10bd6874460b7e0b95.jar" />
+    </item>
+    <item
+        jar="/Users/asap/ProjectEwokAndroid/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/Users/asap/ProjectEwokAndroid/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.4.0_5f2b436f2a9e6d0590073c3092bfad92b548dd14.jar" />
+    </item>
+    <item
+        jar="/Users/asap/ProjectEwokAndroid/app/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.4.4/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6f57b76211a1d7b0c1f18873af59faad95664681">
+        <dex dex="/Users/asap/ProjectEwokAndroid/app/build/intermediates/pre-dexed/debug/com.google.maps.android-android-maps-utils-0.4.4_e611edede59d1e7b3dabf37f193dcfa9d1347a6a.jar" />
+    </item>
+    <item
+        jar="/Users/asap/ProjectEwokAndroid/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="/Users/asap/ProjectEwokAndroid/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-9.4.0_103058c480211f6506b7ec70a06477542d638184.jar" />
+    </item>
+    <item
+        jar="/Users/asap/ProjectEwokAndroid/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/asap/ProjectEwokAndroid/app/build/intermediates/pre-dexed/debug/com.android.volley-volley-1.0.0_aa299a3de2711d95205d93f703624c20eadc0ad4.jar" />
+    </item>
+    <item
+        jar="/Users/asap/ProjectEwokAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/asap/ProjectEwokAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_86922b262c49f8afa4c0017ec08fe5199de4b860.jar" />
+    </item>
+
+</items>
