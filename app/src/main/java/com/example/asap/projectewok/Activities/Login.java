@@ -18,7 +18,7 @@ public class Login extends AppCompatActivity {
 
         //Instantiating view
         setContentView(R.layout.mainmap_activity);
-        //MUFFIN CAKES
+        //Hello World
     }
 
     protected void onStart(){
