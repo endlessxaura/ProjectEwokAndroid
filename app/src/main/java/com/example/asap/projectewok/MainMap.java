@@ -39,6 +39,8 @@ public class MainMap extends AppCompatActivity implements OnMapReadyCallback {
     //Auxiliary Functions
     @Override
     public void onMapReady(final GoogleMap map) {
+        //PRE: An asynchronous map request must be made
+        //POST: runs this when the map is ready, getting the raw geolocations and setting them to the map
         api.onCompleteWithReturns = new ReturnsHandler() {
             @Override
             public void handle(Object returns) {
@@ -72,14 +74,6 @@ public class MainMap extends AppCompatActivity implements OnMapReadyCallback {
         //Preliminary initialization
         super.onCreate(instanceData);
         api = new ApiInterface(this.getApplicationContext());
-        initialOptions = new GoogleMapOptions();
-        CameraPosition position = new CameraPosition(new LatLng(44.8962, -68.6726), 15, 0, 0);
-        initialOptions.mapType(GoogleMap.MAP_TYPE_HYBRID)
-                .compassEnabled(true)
-                .camera(position);
-        mapFragment = com.google.android.gms.maps.MapFragment.newInstance(initialOptions);
-        getFragmentManager().beginTransaction().add(R.id.map, mapFragment).commit();
-        mapFragment.getMapAsync(this);
 
         //Instantiating view
         setContentView(R.layout.mainmap_activity);
@@ -91,20 +85,15 @@ public class MainMap extends AppCompatActivity implements OnMapReadyCallback {
     protected void onStart() {
         super.onStart();
 
-        Authenticator auth = Authenticator.getAuthenticator(this.getApplicationContext());
-        ApiInterface api = new ApiInterface(this.getApplicationContext());
-        ReturnsHandler tester = new ReturnsHandler() {
-            @Override
-            public void handle(Object returns) {
-                if(returns != null){
-                    Log.w("Returns", returns.toString());
-                }
-                else{
-                    Log.w("Returns", "null");
-                }
-            }
-        };
-        api.onCompleteWithReturns = tester;
+        //Starting the map
+        initialOptions = new GoogleMapOptions();
+        CameraPosition position = new CameraPosition(new LatLng(44.8962, -68.6726), 15, 0, 0);
+        initialOptions.mapType(GoogleMap.MAP_TYPE_HYBRID)
+                .compassEnabled(true)
+                .camera(position);
+        mapFragment = com.google.android.gms.maps.MapFragment.newInstance(initialOptions);
+        getFragmentManager().beginTransaction().add(R.id.map, mapFragment).commit();
+        mapFragment.getMapAsync(this);;
         api.getPicture(3, false);
     }
 

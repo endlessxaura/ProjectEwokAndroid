@@ -20,6 +20,41 @@ import java.util.LinkedList;
  * Created by asap on 8/18/16.
  */
 public class ApiInterface extends Requester {
+    /**
+     Basic usage:
+
+     This class is used to interface with the API and create models in the application.
+
+     You can make this class anywhere and it has absolutely no overhead
+
+     When you need something, call one of the "get" functions within this class.
+     This will get data from the database and create what you need. When completed,
+     returns will contain the data requested.
+
+     If you need to wait for the operation to complete, completed will be set to
+     true upon process completion.
+
+     You can set onCompleteWithReturns to call the function
+     when the request has been completed. See below for explicit documentation.
+
+     Make sure that, when you are obtaining a returns, cast it to the right type.
+
+     The return types are as follows;
+     getGeolocations = [GeolocationModel]
+     getGeolocation = GeolocationModel
+     createNewReview = GeolocationModel
+     updateGeolocation = NONE
+     validateGeolocation = NONE
+     getReviews = [ReviewModel]
+     getReview = ReviewModel
+     createNewReview = ReviewModel
+     updateReview = NONE
+     destroyReview = NONE
+     getPictures = [PictureModel]
+     getPicture = PictureModel or NONE (See function comments)
+     */
+
+
     //Properties
     public Object returns;
     public ReturnsHandler onCompleteWithReturns;
