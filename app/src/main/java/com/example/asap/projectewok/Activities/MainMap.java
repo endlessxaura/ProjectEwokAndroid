@@ -26,7 +26,7 @@ import org.json.JSONObject;
  * Created by asap on 8/8/16.
  */
 public class MainMap extends AppCompatActivity implements OnMapReadyCallback {
-
+    
     //Properties
     MapFragment mapFragment;
     GoogleMapOptions initialOptions;
